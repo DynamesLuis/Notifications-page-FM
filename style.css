@@ -79,6 +79,15 @@ article {
     border-radius: 10px;
 }
 
+article:not(.read) .notification-state {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--Red);
+    margin-left: 5px;
+}
+
 article.read {
     background-color: var(--White);
 }
